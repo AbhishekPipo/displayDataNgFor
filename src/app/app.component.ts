@@ -11,6 +11,7 @@ export class AppComponent {
   // title = 'displayDataNgFor';
   flopData: FlopData;
 actors: Actor[];
+favoriteActors: Actor[]=[];
 logActor(actor:any){
   console.log(actor.name);
 }

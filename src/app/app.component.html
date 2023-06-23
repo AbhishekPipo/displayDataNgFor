@@ -4,7 +4,17 @@
   <h1>
     abhishek displaying data using ng For
   </h1>
-  
+
+  <div class="mb-3">
+    <b>My Fav Actors</b>
+    <ul class="list-unstyled">
+      <li
+      
+      *ngFor="let fav of favoriteActors"
+      >{{fav.name}}</li>
+     
+    </ul>
+  </div>
   <!-- <div 
 *ngFor="let actor of actors; index as i; even as e"
   class="bg-dark text-light p-3 mb-2" 
